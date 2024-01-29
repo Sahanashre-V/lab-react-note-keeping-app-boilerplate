@@ -1,0 +1,32 @@
+body{
+  background-color: blue;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-text{
+  height:400px;
+  width:500px;
+  border: 2px solid black;
+  background: blue;
+  color:white;
+  outline: none;
+  font-size: 1rem;
+}
+
+.output-text{
+  background-color: #464646;
+  color:white;
+  height:450px;
+  width:400px;
+  outline: none;
+  padding: 15px;
+  overflow-wrap: break-word;
+  box-shadow: 5px 10px 20px black;
+}
